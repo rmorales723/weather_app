@@ -1,2 +1,12 @@
-<h1>WEATHER APP!</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div class="jumbotron">
+  <h1 class="display-4"><%= @output[0]['AQI'] %></h1>
+  <p class="lead">This is the current ozone air quality readout for my neighborhood in New Jersey.</p>
+  <hr class="my-4">
+  <p>Hit "Reload" in your browser to update the reading...</p>
+  <p class="lead">
+    <a class="btn btn-warning btn-lg" href="#" role="button">Learn more</a>
+  </p>
+</div>
+
+<br/>
+
