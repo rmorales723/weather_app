@@ -19,22 +19,22 @@ class HomeController < ApplicationController
         @api_color = "silver"
     elsif @final_output <= 50
         @api_color = "green"
-        @api_description = "Current Air Quality Good"
+        @api_description = "Current Air Quality (0-50) Good"
     elsif @final_output >= 51 && @final_output <= 100
         @api_color = "yellow"
-        @api_description = "Current Air Quality Moderate"
+        @api_description = "Current Air Quality (51-100) Moderate"
     elsif @final_output >= 101 && @final_output <= 150
         @api_color = "orange"
-        @api_description = "Current Air Quality Unhealthy for Sensitive Groups"
+        @api_description = "Current Air Quality (101-150) Unhealthy for Sensitive Groups"
     elsif @final_output >= 151 && @final_output <= 200
         @api_color = "red"
-        @api_description = "Current Air Quality Unhealthy"
+        @api_description = "Current Air Quality (151-200) Unhealthy"
     elsif @final_output >= 201 && @final_output <= 300
         @api_color = "purple"
-        @api_description = "Current Air Quality Very Unhealthy"
+        @api_description = "Current Air Quality (201-300) Very Unhealthy"
     elsif @final_output >= 301 && @final_output <= 500
         @api_color = "maroon"
-        @api_description = "Current Air Quality Hazardous"
+        @api_description = "Current Air Quality (301-500) Hazardous"
     end
   end
 end
