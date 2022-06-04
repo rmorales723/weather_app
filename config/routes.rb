@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
-  #  get  'home/zipcode'
+  #get  'home/zipcode'
   resources :home, only: [:index]
-   post 'zipcode' => 'home#zipcode'
-   root 'home#index'
+  root 'home#index'
+  post 'zipcode' => 'home#zipcode'
+
   # having problem with path...added resources to bypass
   
   
