@@ -1,5 +1,8 @@
 # README
-This project is an app that displays the air quality of the zipcode entered. Accessing the external data AirNow.org with an API Key.
+
+* react, ruby on rails, jquery-rails, bootstrap.
+
+* This simple project is an app that displays the air quality of the zipcode entered. Accessing the external data AirNow.org with an API Key.
 
 ![Screen Shot 2022-06-03 at 10 04 26 PM](https://user-images.githubusercontent.com/72527380/171974351-7d61a5dd-0b90-4d4f-bb3b-4d02fd0f158f.png)
 
